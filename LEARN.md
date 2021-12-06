@@ -10,7 +10,7 @@ In this quest we will deep dive into the whats, hows of staking on Solana Blockc
 2. You will understand what Staking is.
 3. You will understand the concepts like Validators, Cooling Period, Staking Account, Stake Authority
 4. You will understand how to do Staking via Web3.js
-5. You will unders
+5. You will understand how validators work while staking.
 
 ### What is the difference between Staking and Lending? ###
 
