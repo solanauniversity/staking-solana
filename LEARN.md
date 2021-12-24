@@ -1,10 +1,8 @@
-## Staking on Solana ##
-
-### Introduction ###
+# Staking on Solana
 
 In this quest we will deep dive into the whats, hows of staking on Solana Blockchain. Staking is one of the ways of generating more money on the existing SOL coins we hold. One can easily choose validators on which to stake their amount or can stake on web applications.
 
-### What will you get after going through this quest ? ###
+## What will you get after going through this quest ?
 
 1. You will understand the difference between Staking and Lending
 2. You will understand what Staking is.
@@ -12,7 +10,7 @@ In this quest we will deep dive into the whats, hows of staking on Solana Blockc
 4. You will understand how to do Staking via Web3.js
 5. You will understand how validators work while staking.
 
-### What is the difference between Staking and Lending? ###
+## What is the difference between Staking and Lending?
 
 
 **Staking**: Staking is a process of delegating SOL tokens to different validators available. Validators use this staked amount to validate the block on the blockchain and return the rewards to the stakers.
@@ -27,12 +25,12 @@ But there are other options as well where lending is performed via the applicati
 
 Interest which you can earn on your crypto can be from 5% to 43% depending on the needs of the other person. It feels like you are lending your fiat to another person at agreed interest rates.
 
-### Why to stake SOL ? ###
+## Why to stake SOL ?
 
 
 Staking SOL is one of the ways of generating income on the idle sitting crypto in your wallet. Everyone wants to earn extra on cryptos which are with them which can eventually turn out a win win situation for the stakers as value of staked crypto gets appreciated as well along with the staking rewards.
 
-### Prerequisites to work on this quest ###
+## Prerequisites to work on this quest
 
 1. Basic knowledge of crypto wallet to approve the transaction (Phantom wallet specifically).
 2. A basic react app with wallet connectivity feature.
@@ -40,7 +38,7 @@ Staking SOL is one of the ways of generating income on the idle sitting crypto i
 4. Funded Solana wallet atleast 0.5 SOL .
 5. For better understanding, please go through our first quest on **creating a wallet connection** with react app.
 
-### Folder structure expected of the react app to run this quest ###
+## Folder structure expected of the react app to run this quest
 
 
 
@@ -56,7 +54,7 @@ Staking SOL is one of the ways of generating income on the idle sitting crypto i
             * Index.js
             * Package.json
 
-### Basic terminologies to digest before we jump into the quest ###
+## Basic terminologies to digest before we jump into the quest
 
 
 **Validators**: A blockchain validator is someone who is responsible for verifying transactions on a blockchain. Once transactions are verified, they are added to the distributed ledger. In proof of work (PoW) systems like Bitcoin known as miners. 
@@ -85,11 +83,11 @@ A delegation or deactivation takes several epochs to complete, with a fraction o
 
 A lockup can only be added when a stake account is first created, but it can be modified later, by the lockup authority.
 
-## Subquest: Staking flow ##
+## Staking flow
 
 ![alt_text](./learn_src/learn_assets/staking-solana.png "Staking Solana Flow")
 
-### Subquest: Staking code walkthrough ###
+## Staking code walkthrough
 
 
 Let’s understand the **createAccount** util function
@@ -263,7 +261,7 @@ export const stakeSOL = async (totalSolToStake, provider,connection) => {
 ```
 
 
-## Subquest : How to run this quest ##
+## How to run this quest
 1. Install phantom wallet chrome extension and add some SOL to the wallet.
 2. Create a react app 
     1. npx create-react-app stake-solana
@@ -359,7 +357,7 @@ export default App;
 ![alt_text](./learn_src/learn_assets/wallet-staking.png "Staking Wallet")
 
 
-## Subquest : What next? ##
+## What next?
 
 ** What can you build taking this quest as a base ? **
 1. You can create an application which can take users' SOL token and stake it to a validator.
